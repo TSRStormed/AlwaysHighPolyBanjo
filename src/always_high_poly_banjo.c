@@ -23,7 +23,7 @@ RECOMP_PATCH s32 func_802985F0(void){
         case TRANSFORM_1_BANJO: //80298654
         default:
         {
-            switch (gsworld_get_map())
+            switch (map_get())
             {
                 case MAP_20_CS_END_NOT_100:
                 case MAP_7B_CS_INTRO_GL_DINGPOT_1:
@@ -40,7 +40,7 @@ RECOMP_PATCH s32 func_802985F0(void){
                 case MAP_88_CS_SPIRAL_MOUNTAIN_6:
                 case MAP_89_CS_INTRO_BANJOS_HOUSE_2:
                 case MAP_8A_CS_INTRO_BANJOS_HOUSE_3:
-                    return ASSET_34D_MODEL_BANJOKAZOOIE_LOW_POLY;
+                    return ASSET_34E_MODEL_BANJOKAZOOIE_HIGH_POLY;
 
                 case MAP_1_SM_SPIRAL_MOUNTAIN:
                 case MAP_2_MM_MUMBOS_MOUNTAIN:
